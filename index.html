@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./estilos/estilos.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+        <div id="salida">
+            <div id="calculo"></div>
+        </div>
+        <div class="botones">
+            <div class="numero">
+                <div>
+                    <button id="numero7" onclick="agregar7()">7</button>
+                    <button id="numero8" onclick="agregar8()">8</button>
+                    <button id="numero9" onclick="agregar9()">9</button>
+                    <button id="opsuma" onclick="agregarsuma()">+</button>
+
+                </div>
+                <div>
+                    <button id="numero4" onclick="agregar4()">4</button>
+                    <button id="numero5" onclick="agregar5()">5</button>
+                    <button id="numero6" onclick="agregar6()">6</button>
+                    <button id="opresta" onclick="agregarresta()">-</button>
+
+                </div>
+                <div>
+                    <button id="numero1" onclick="agregar1()">1</button>
+                    <button id="numero2" onclick="agregar2()">2</button>
+                    <button id="numero3"onclick="agregar3()">3</button>
+                    <button id="opmulti" onclick="agregarmulti()">*</button>
+                </div>
+                <div>
+                    <button id="ce"> CE </button>
+                    <button id="numero0" onclick="agregar0()">0</button>
+                    <button id="igual" onclick="a()">=</button>
+                    <button id="opdivi" onclick="agregardivi()">/</button>
+                </div>
+            </div>
+            <!--<div class="operaciones">
+                <button class="opsuma">+</button>
+                <button class="opresta">-</button>
+                <button class="opmulti">*</button>
+                <button class="opdivi">/</button>
+            </div>-->
+            <div id="imprimir">
+                <button id="opcodigo" onclick="impri()">IMPRIMIR CODIGO</button>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="./js/js.js"></script>
+
+</body>
+
+</html>
