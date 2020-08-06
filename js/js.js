@@ -110,7 +110,7 @@ function a(){
 
     if(sumar!== -1){
         num1=x.split("+",2);
-        p=num1[0]+num1[1];
+        p=parseInt(num1[0])+ parseInt(num1[1]);
         document.getElementById("calculo").innerHTML = p;
 
 
